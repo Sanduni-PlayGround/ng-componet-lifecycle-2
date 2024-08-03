@@ -1,0 +1,19 @@
+<h1 class="text-center p-2">Angular Components Life Cycle 2</h1>
+<div class="text-center">
+  <button class="btn btn-primary pt-2">Change</button>
+  <button (click)="updateText()" class="btn btn-primary">Update text</button>
+</div>
+<br>
+<app-child>
+  <h1 #h1 class="text-center">Projected Contents (h1)</h1><br>
+  {{text}}
+</app-child>
+<hr>
+<app-first>
+  <h2 #h2 class="text-center">project Content (h2)</h2>
+  <h2 #h2 class="text-center">project Content (h2)</h2>
+  <h2 #h2 class="text-center">project Content (h2)</h2>
+</app-first>
+
+
+
